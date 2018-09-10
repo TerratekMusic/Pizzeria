@@ -1,0 +1,18 @@
+
+
+Intalar e iniciar Ionic
+// npm install -g ionic cordova
+//cd ../../
+//cd Users\Akira\Documents
+//cd Pizzeria
+//npm start
+//ionic serve --lab
+
+
+Servidor Json 
+
+// cd Pizzeria
+//npm install -g json-server
+// json-serve --watch db.json -d 2000
+//en el navegador correr LocalHost:3000
+
