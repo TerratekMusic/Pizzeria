@@ -5,6 +5,7 @@ Intalar e iniciar Ionic
 //cd ../../
 //cd Users\Akira\Documents
 //cd Pizzeria
+//npm install
 //npm start
 //ionic serve --lab
 
@@ -13,6 +14,7 @@ Servidor Json
 
 // cd Pizzeria
 //npm install -g json-server
-// json-serve --watch db.json -d 2000
+//cd json-server
+// json-server --watch db.json -d 2000
 //en el navegador correr LocalHost:3000
 
