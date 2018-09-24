@@ -25,6 +25,7 @@ export class DishProvider {
 getFeaturedDish(): Observable<Dish>{
 	return this.http.get<Dish>(dbURL + 'dishes?featured=true').map( 
 res => res
+);
 
 }
 
