@@ -20,6 +20,7 @@ export class HomePage implements OnInit {
 	leader:Leader;
 	promotion:Promotion;
 
+
   constructor(public navCtrl: NavController, 
     private dishService: DishProvider,
   	private leaderService: LeaderProvider,
@@ -30,7 +31,10 @@ export class HomePage implements OnInit {
 ngOnInit(){
   this.getFeaturedDish();
   //this.getFeaturedPromotion();
+
   this.getFeaturedLeader();
+
+
 }
 
 
@@ -43,6 +47,7 @@ getFeaturedDish(){
           console.log(this.dish);
         });
     }
+
 getFeaturedPromotion(){
 this.promotionService
 .getFeaturedPromotion()
