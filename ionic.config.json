@@ -1,7 +1,0 @@
-{
-  "name": "pizzeria",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
